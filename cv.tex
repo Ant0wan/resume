@@ -2,6 +2,8 @@
 \usepackage{array, xcolor, bibentry}
 \usepackage[margin=3cm]{geometry}
 \usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\graphicspath{ {./} }
 
 \title{\bfseries\Huge Antoine Barthelemy}
 \date{}
@@ -10,7 +12,11 @@
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
 \newcolumntype{R}{p{0.8\textwidth}}
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
-
+\DeclareRobustCommand{\octicons}{%
+  \begingroup\normalfont
+  \includegraphics[height=\fontcharht\font`\B]{octicons.png}%
+  \endgroup
+}
 
 \begin{document}
 \maketitle
@@ -21,7 +27,7 @@
 
 \begin{center}
 abarthel@student.42.fr \\
-https://github.com/Ant0wan\\
+\octicons{} github.com/Ant0wan\\
 /in/antoine-barthelemy-114125197
 \end{center}
 
