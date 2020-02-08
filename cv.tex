@@ -3,9 +3,21 @@
 \usepackage[margin=3cm]{geometry}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx}
+\usepackage{lmodern}
 \graphicspath{ {./} }
 
-\title{\bfseries\Huge Antoine Barthelemy}
+\title{%
+\noindent\begin{minipage}{.55\textwidth}
+\begin{flushright}
+  \bfseries \huge Antoine Barthelemy
+\end{flushright}
+\end{minipage}%
+\begin{minipage}{.45\textwidth}
+  \centering
+  \includegraphics[width=0.25\textwidth]{octicons.png}
+\end{minipage}
+}
+\author{\small 11 rue Francois Millet, 75016 Paris | +33 (0)6 95 45 06 XX}
 \date{}
 
 \definecolor{lightgray}{gray}{0.8}
@@ -32,11 +44,7 @@
 \maketitle
 \pagenumbering{gobble}
 \begin{center}
-11 rue Francois Millet, 75016 Paris | +33 (0)6 95 45 06 XX
-\end{center}
-
-\begin{center}
-\gmail{} abarthel@student.42.fr \\
+\gmail{} abarthel@student.42.fr\\
 \octicons{} github.com/Ant0wan\\
 \linkedin{} /in/Ant0wan
 \end{center}
