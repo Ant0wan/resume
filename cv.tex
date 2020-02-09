@@ -1,8 +1,7 @@
 \documentclass[a4paper]{article}
 
-\usepackage{array, xcolor, bibentry, graphicx, lmodern, tikz, geometry}
+\usepackage{array, xcolor, bibentry, graphicx, lmodern, tikz, geometry, background}
 \usepackage[T1]{fontenc}
-\usepackage{background}
 
 \graphicspath{ {./} }
 
@@ -16,9 +15,7 @@
 \definecolor{lightgray}{gray}{0.9}
 
 \newcolumntype{L}{>{\raggedleft}p{0.14\textwidth}}
-
 \newcolumntype{R}{p{0.8\textwidth}}
-
 \newcommand\VRule{\color{lightgray}\vrule width 0.5pt}
 
 \DeclareRobustCommand{\octicons}{%
@@ -37,7 +34,18 @@
   \endgroup
 }
 
-\title{%
+\backgroundsetup{
+placement=top,
+scale=1,
+color=black,
+opacity=1,
+angle=0,
+contents={%
+  \includegraphics[width=\paperwidth,height=300pt]{federation_background.jpg}
+  }%
+}
+
+\title{\vspace{-2.0cm}%
 \noindent\begin{minipage}{.55\textwidth}
 \begin{center}
   \bfseries \huge Antoine Barthelemy\\[10pt]
@@ -51,17 +59,6 @@
 }
 \author{}
 \date{}
-
-\backgroundsetup{
-placement=top,
-scale=1,
-color=black,
-opacity=1,
-angle=0,
-contents={%
-  \includegraphics[width=\paperwidth,height=300pt]{federation_background.jpg}
-  }%
-}
 
 
 \begin{document}
