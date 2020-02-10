@@ -6,4 +6,4 @@ My Curriculum Vitae in LaTex.
 
 ## Overview
 
-[![CV](https://i.imgur.com/h9tGMDE.jpg)]
+![CV](https://i.imgur.com/h9tGMDE.jpg)
