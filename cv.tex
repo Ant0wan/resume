@@ -33,6 +33,11 @@
   \includegraphics[height=\fontcharht\font`\B]{gmail.png}%
   \endgroup
 }
+\DeclareRobustCommand{\web}{%
+  \begingroup\normalfont
+  \includegraphics[height=\fontcharht\font`\B]{web.png}%
+  \endgroup
+}
 
 \backgroundsetup{
 placement=top,
@@ -49,7 +54,7 @@ contents={%
 \noindent\begin{minipage}{.60\textwidth}
 \begin{center}
  \color{white} \bfseries \Huge Antoine Barthelemy\\[10pt]
-  \Large42 student looking for a 6-month internship starting early April
+  \Large42 student looking for a 6-month internship starting early July
 \end{center}
 \end{minipage}%
 \begin{minipage}{.45\textwidth}
@@ -70,8 +75,7 @@ contents={%
 \begin{center}
 {\color{lightgray}\hrule}
 \vskip 2mm%
-\gmail{} abarthel@student.42.fr | \octicons{} github.com/Ant0wan | \linkedin{} /in/Ant0wan | {\small +33 (0)6 95 45 06 XX} |
-\\11 rue Francois Millet, 75016 Paris, France
+\gmail{} abarthel@student.42.fr | \octicons{} github.com/Ant0wan | \linkedin{} /in/Ant0wan | \web{} antoine.link/
 \vskip 2mm%
 {\color{lightgray}\hrule}
 \end{center}
@@ -93,11 +97,10 @@ Sept.2015&Helped obtain VC backing of Global Founders Capital (Rocket Internetâ€
 \begin{tabular}{L!{\VRule}R}
 2018--today&{\bf Certificate of Architect in Digital Technologies, 42, France}.\\
 &Some of the projects done at 42:\\
-&21sh - A tiny shell.\\
+&42sh - A small shell.\\
 &42Libc - Maintained cross-platform C library for 42 projects.\\
-&Minitalk - Small data exchange program using UNIX signals.\\
-&Ft\_ls - A tiny program that lists directory contents.\\
-&Ft\_printf - A variadic function formatting output.\\
+&Ft\_ls - A tiny program that mimics the ls utility.\\
+&Ft\_printf - Libc's printf-like function formatting output.\\
 &Roger-skyline-1 - Virtual machine and web server deployment automation.\\[5pt]
 2014--2016&{\bf BSc in Business Administration, ESSEC, France.}\\
 \end{tabular}
@@ -110,7 +113,7 @@ English&Fluent\\
 
 \section*{Skills}
 \begin{tabular}{L!{\VRule}R}
-Prog. lang.&C, Go, Python \& Bash\\
-Misc.&RTC, LaTeX, Unix, Travis-CI \& Docker
+Prog. lang.&C \& Bash\\
+Misc.&Docker, Travis-CI \& LaTex
 \end{tabular}
 \end{document}
