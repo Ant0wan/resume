@@ -1,9 +1,3 @@
-# CV
+# CV_Template
 
-My Curriculum Vitae in LaTex.
-
----
-
-## Overview
-
-![CV](https://i.imgur.com/h9tGMDE.jpg)
+My Curriculum Vitae Template in LaTex.
