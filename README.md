@@ -1,4 +1,4 @@
-# CV\_Template
+# CV
 
 A curriculum vitae template in LaTex.
 
