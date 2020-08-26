@@ -67,6 +67,15 @@
 	\vcenteredhbox{\textcolor{black}{#3}}% Text
 }
 
+\newcommand{\roundpic}[4][]{
+  \tikz\node [circle, minimum width = #2,
+    path picture = {
+      \node [#1] at (path picture bounding box.center) {
+        \includegraphics[width=#3]{#4}};
+	}] {};
+}
+
+
 %----------------------------------------------------------------------------------------
 %	GRAPHICS DEFINITIONS
 %---------------------------------------------------------------------------------------- 

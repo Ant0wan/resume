@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.8.25)  25 AUG 2020 21:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2020.8.25)  26 AUG 2020 20:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -148,13 +148,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip43
 )
-
-! LaTeX Error: File `moresize.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/moresize/moresize.sty
+Package: moresize 1999/07/26 v1.9 (more font sizes)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@cnth=\count98
@@ -182,35 +178,183 @@ Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/raleway/raleway.sty
+Package: raleway 2016/12/03 v1.4 Matt McInerney\T1\textquoteright s Raleway fam
+ily
 
-! LaTeX Error: File `raleway.sty' not found.
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks18
+\XKV@tempa@toks=\toks19
+)
+\XKV@depth=\count101
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
 
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.def
+File: ot1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding OT1 on input line 48.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1enc.def
+File: ly1enc.def 2009/07/22 v0.7 TeX 'n ANSI encoding (DPC/KB)
+Now handling font encoding LY1 ...
+... processing UTF-8 mapping file for font encoding LY1
 
-! LaTeX Error: Unknown option `default' for package `raleway'.
+(/usr/share/texlive/texmf-dist/tex/latex/base/ly1enc.dfu
+File: ly1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A0 (decimal 160)
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00AD (decimal 173)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0174 (decimal 372)
+   defining Unicode char U+0175 (decimal 373)
+   defining Unicode char U+0176 (decimal 374)
+   defining Unicode char U+0177 (decimal 375)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+0218 (decimal 536)
+   defining Unicode char U+0219 (decimal 537)
+   defining Unicode char U+021A (decimal 538)
+   defining Unicode char U+021B (decimal 539)
+   defining Unicode char U+0237 (decimal 567)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2122 (decimal 8482)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 105.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.56 
-     
-? 
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/mweights/mweights.sty
+Package: mweights 2017/03/30 (Bob Tennent) Support package for multiple-weight 
+font packages. 
+LaTeX Info: Redefining \bfseries on input line 22.
+LaTeX Info: Redefining \mdseries on input line 30.
+LaTeX Info: Redefining \rmfamily on input line 38.
+LaTeX Info: Redefining \sffamily on input line 66.
+LaTeX Info: Redefining \ttfamily on input line 94.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesome.sty
+Package: fontawesome 2016/05/15 v4.6.3.1 font awesome icons
 
-! LaTeX Error: File `fontawesome.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-generic
+.tex)
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/fontawesomesymbols-pdftex.
+tex)) (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks18
+\pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen116
 \pgfutil@tempdimb=\dimen117
 
@@ -252,12 +396,12 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 Package: pgfsys 2019/08/03 v3.1.4b (3.1.4b)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks19
-\pgfkeys@temptoks=\toks20
+\pgfkeys@pathtoks=\toks21
+\pgfkeys@temptoks=\toks22
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
 ex
-\pgfkeys@tmptoks=\toks21
+\pgfkeys@tmptoks=\toks23
 ))
 \pgf@x=\dimen120
 \pgf@y=\dimen121
@@ -271,14 +415,14 @@ ex
 \pgf@yd=\dimen129
 \w@pgf@writea=\write3
 \r@pgf@reada=\read1
-\c@pgf@counta=\count101
-\c@pgf@countb=\count102
-\c@pgf@countc=\count103
-\c@pgf@countd=\count104
-\t@pgf@toka=\toks22
-\t@pgf@tokb=\toks23
-\t@pgf@tokc=\toks24
-\pgf@sys@id@count=\count105
+\c@pgf@counta=\count102
+\c@pgf@countb=\count103
+\c@pgf@countc=\count104
+\c@pgf@countd=\count105
+\t@pgf@toka=\toks24
+\t@pgf@tokb=\toks25
+\t@pgf@tokc=\toks26
+\pgf@sys@id@count=\count106
  (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
 File: pgf.cfg 2019/08/03 v3.1.4b (3.1.4b)
 )
@@ -294,8 +438,8 @@ File: pgfsys-common-pdf.def 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
 tex
 File: pgfsyssoftpath.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfsyssoftpath@smallbuffer@items=\count106
-\pgfsyssoftpath@bigbuffer@items=\count107
+\pgfsyssoftpath@smallbuffer@items=\count107
+\pgfsyssoftpath@bigbuffer@items=\count108
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
 tex
@@ -325,11 +469,11 @@ Package: pgfcore 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen130
-\pgfmath@count=\count108
+\pgfmath@count=\count109
 \pgfmath@box=\box28
-\pgfmath@toks=\toks25
-\pgfmath@stack@operand=\toks26
-\pgfmath@stack@operation=\toks27
+\pgfmath@toks=\toks27
+\pgfmath@stack@operand=\toks28
+\pgfmath@stack@operation=\toks29
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -349,7 +493,7 @@ tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
 thmetics.code.tex)))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count109
+\c@pgfmathroundto@lastzeros=\count110
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
@@ -388,7 +532,7 @@ File: pgfcorescopes.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgfpic=\box29
 \pgf@hbox=\box30
 \pgf@layerbox@main=\box31
-\pgf@picture@serial@count=\count110
+\pgf@picture@serial@count=\count111
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
 ode.tex
@@ -421,8 +565,8 @@ File: pgfcorearrows.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \pgf@max=\dimen154
-\pgf@sys@shading@range@num=\count111
-\pgf@shadingcount=\count112
+\pgf@sys@shading@range@num=\count112
+\pgf@shadingcount=\count113
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2019/08/03 v3.1.4b (3.1.4b)
@@ -473,8 +617,8 @@ Package: pgffor 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen157
 \pgffor@skip=\dimen158
-\pgffor@stack=\toks28
-\pgffor@toks=\toks29
+\pgffor@stack=\toks30
+\pgffor@toks=\toks31
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
 Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
@@ -482,7 +626,7 @@ Package: tikz 2019/08/03 v3.1.4b (3.1.4b)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgf@plot@mark@count=\count113
+\pgf@plot@mark@count=\count114
 \pgfplotmarksize=\dimen159
 )
 \tikz@lastx=\dimen160
@@ -497,18 +641,18 @@ File: pgflibraryplothandlers.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 \tikz@figbox@bg=\box35
 \tikz@tempbox=\box36
 \tikz@tempbox@bg=\box37
-\tikztreelevel=\count114
-\tikznumberofchildren=\count115
-\tikznumberofcurrentchild=\count116
-\tikz@fig@count=\count117
+\tikztreelevel=\count115
+\tikznumberofchildren=\count116
+\tikznumberofcurrentchild=\count117
+\tikz@fig@count=\count118
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2019/08/03 v3.1.4b (3.1.4b)
-\pgfmatrixcurrentrow=\count118
-\pgfmatrixcurrentcolumn=\count119
-\pgf@matrix@numberofcolumns=\count120
+\pgfmatrixcurrentrow=\count119
+\pgfmatrixcurrentcolumn=\count120
+\pgf@matrix@numberofcolumns=\count121
 )
-\tikz@expandcount=\count121
+\tikz@expandcount=\count122
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -594,17 +738,17 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
 \LTright=\skip45
 \LTpre=\skip46
 \LTpost=\skip47
-\LTchunksize=\count122
+\LTchunksize=\count123
 \LTcapwidth=\dimen168
 \LT@head=\box60
 \LT@firsthead=\box61
 \LT@foot=\box62
 \LT@lastfoot=\box63
-\LT@cols=\count123
-\LT@rows=\count124
-\c@LT@tables=\count125
-\c@LT@chunks=\count126
-\LT@p@ftn=\toks30
+\LT@cols=\count124
+\LT@rows=\count125
+\c@LT@tables=\count126
+\c@LT@chunks=\count127
+\LT@p@ftn=\toks32
 )) (./main.aux)
 \openout1 = `main.aux'.
 
@@ -622,11 +766,22 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
-LaTeX Font Info:    Try loading font information for T1+cmss on input line 9.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 9.
+LaTeX Font Info:    Try loading font information for LY1+ptm on input line 9.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
-File: t1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
+File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Try loading font information for T1+Raleway-TLF on input li
+ne 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/raleway/T1Raleway-TLF.fd
+File: T1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for T1/Raleway-TL
+F.
+)
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 9.
 \AtBeginShipoutBox=\box64
 Package hyperref Info: Link coloring OFF on input line 9.
 
@@ -636,7 +791,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count127
+\c@section@level=\count128
 )
 LaTeX Info: Redefining \ref on input line 9.
 LaTeX Info: Redefining \pageref on input line 9.
@@ -684,17 +839,17 @@ LaTeX Info: Redefining \nameref on input line 9.
 ABD: EveryShipout initializing macros
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count128
+\scratchcounter=\count129
 \scratchdimen=\dimen169
 \scratchbox=\box65
-\nofMPsegments=\count129
-\nofMParguments=\count130
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count131
+\nofMPsegments=\count130
+\nofMParguments=\count131
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count132
 \MPscratchDim=\dimen170
-\MPnumerator=\count132
-\makeMPintoPDFobject=\count133
-\everyMPtoPDFconversion=\toks32
+\MPnumerator=\count133
+\makeMPintoPDFobject=\count134
+\everyMPtoPDFconversion=\toks34
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -712,37 +867,46 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-! Undefined control sequence.
-<argument> {\HUGE 
-                  \textcolor {white}{\textbf {\MakeUppercase {Antoine}}}}
-l.20 ...white}{\textbf{\MakeUppercase{Antoine}}}}}
-                                                   % First name
-? 
-! Undefined control sequence.
-<argument> {\HUGE 
-                  \textcolor {white}{\textbf {\MakeUppercase {Barthelemy}}}}
-l.22 ...te}{\textbf{\MakeUppercase{Barthelemy}}}}}
-                                                   % Last name
-? 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 29.86pt on input line 20.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 29.86pt on input line 20.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 26.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 33.
+LaTeX Font Info:    Try loading font information for U+fontawesometwo on input 
+line 33.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesometwo.fd
+File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
+)
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <6> on input line 33.
 LaTeX Font Info:    External font `cmex7' loaded for size
 (Font)              <5> on input line 33.
+LaTeX Font Info:    Try loading font information for U+fontawesomeone on input 
+line 36.
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
+(/usr/share/texlive/texmf-dist/tex/latex/fontawesome/ufontawesomeone.fd
+File: ufontawesomeone.fd 2016/05/22 Font definitions for U/fontawesomeone.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 33--37
 
  []
 
+<img/profil.jpg, id=9, 200.75pt x 200.75pt>
+File: img/profil.jpg Graphic file (type jpg)
+<use img/profil.jpg>
+Package pdftex.def Info: img/profil.jpg  used on input line 42.
+(pdftex.def)             Requested size: 105.2751pt x 105.27892pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
-
- []
-
-
-Overfull \hbox (4.10269pt too wide) in paragraph at lines 15--44
+Overfull \hbox (3.05258pt too wide) in paragraph at lines 15--44
 [][] [] [] 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 51.
 
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
@@ -763,6 +927,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 7.0pt on input line 82.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 7.0pt on input line 82.
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 82.
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
@@ -788,11 +956,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
 [1
 
-{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/share/texlive/texmf-dist/fonts/map/pdftex/updmap/pdftex.map} <./img/profi
+l.jpg>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 151.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 151.
-
-(./main.aux)
+ (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 151.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 151.
 Package rerunfilecheck Info: File `main.out' has not changed.
@@ -800,24 +968,25 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 151.
  ) 
 Here is how much of TeX's memory you used:
- 17945 strings out of 493760
- 361599 string characters out of 6154272
- 457774 words of memory out of 5000000
- 21374 multiletter control sequences out of 15000+600000
- 11605 words of font info for 30 fonts, out of 8000000 for 9000
+ 20179 strings out of 493760
+ 395520 string characters out of 6154272
+ 484681 words of memory out of 5000000
+ 23546 multiletter control sequences out of 15000+600000
+ 117341 words of font info for 41 fonts, out of 8000000 for 9000
  430 hyphenation exceptions out of 8191
- 62i,7n,69p,422b,318s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr
-/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfss0700.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/cm-super/sfss0900.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/cm-super/sfsx0700.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/cm-super/sfsx0900.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/cm-super/sftt0900.pfb>
-Output written on main.pdf (1 page, 97891 bytes).
+ 62i,10n,69p,422b,1025s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr
+/share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesomeone.enc}{/usr/
+share/texlive/texmf-dist/fonts/enc/dvips/fontawesome/fontawesometwo.enc}{/usr/s
+hare/texlive/texmf-dist/fonts/enc/dvips/raleway/a_bzmckq.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/fontawesome/FontAwesome.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/impallari/raleway/Raleway-Bold.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/impallari/raleway/Raleway-Regular.pfb></usr/share/texliv
+e/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+Output written on main.pdf (1 page, 95319 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
- 35 compressed objects within 1 object stream
+ 43 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
  4 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 18 words of extra memory for PDF output out of 10000 (max. 10000000)
 
