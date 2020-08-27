@@ -2,6 +2,8 @@
 
 A curriculum vitae template in LaTex.
 
+![CV](/img/cvpic.png)
+
 ## Prerequisite
 
 If you are using a Debian's family linux distro.
