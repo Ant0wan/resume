@@ -15,6 +15,12 @@ apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra
 
 ## Build
 
+```shell=
+make cv
+```
+
+OLD:
+
 In order to build a .pdf of your CV, enter the following in your terminal at the project root directory.
 
 ```shell
