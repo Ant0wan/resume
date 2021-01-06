@@ -2,7 +2,7 @@
 
 A curriculum vitae template in LaTex.
 
-![CV](/img/cvpic.png)
+![CV](cvpic.png)
 
 ## Prerequisite
 
