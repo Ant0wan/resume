@@ -12,6 +12,12 @@ If you are using a Debian's family linux distro.
 apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 ```
 
+of
+
+```shell
+dnf install texlive-scheme-full
+```
+
 
 ## Build
 
