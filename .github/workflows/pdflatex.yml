@@ -1,6 +1,8 @@
 name: 'Build LaTeX CV'
 on:
   push:
+    branches:
+      - master
     tags-ignore:
       - v*
 
