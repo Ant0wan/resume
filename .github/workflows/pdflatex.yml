@@ -1,6 +1,8 @@
 name: 'Build LaTeX CV'
 on:
-  push: tags-ignore
+  push:
+    tags-ignore:
+      - v*
 
 jobs:
   build:
@@ -15,3 +17,8 @@ jobs:
         with:
           root_file: cv.tex
           working_directory: cv/
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: cv.pdf
+          path: cv/cv.pdf
