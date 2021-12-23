@@ -4,11 +4,11 @@ on:
     branches:
       - master
     tags-ignore:
-      - v*
+      - 'v*'
 
 jobs:
-  build_cv:
-    name: Build CV
+  build:
+    name: 'Build CV'
     runs-on: ubuntu-latest
     steps:
       - name: Set up Git repository
