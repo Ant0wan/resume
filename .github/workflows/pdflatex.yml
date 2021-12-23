@@ -1,0 +1,14 @@
+name: 'Build LaTeX CV'
+on: [push]
+
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+
+      - name: Compile LaTeX CV
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: cv/cv.tex
