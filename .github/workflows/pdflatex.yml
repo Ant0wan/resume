@@ -7,7 +7,7 @@ on:
       - v*
 
 jobs:
-  build:
+  build_cv:
     name: Build CV
     runs-on: ubuntu-latest
     steps:
