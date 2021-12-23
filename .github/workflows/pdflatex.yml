@@ -5,6 +5,12 @@ on:
       - master
     tags-ignore:
       - v*
+    paths-ignore:
+      - 'README.md'
+      - 'cvpic.png'
+      - '.gitignore'
+      - 'Makefile'
+      - 'old/*'
 
 jobs:
   build:

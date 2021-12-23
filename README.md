@@ -1,5 +1,7 @@
 # CV
 
+[![Build and Publish LaTeX CV](https://github.com/Ant0wan/CV/actions/workflows/release.yml/badge.svg)](https://github.com/Ant0wan/CV/actions/workflows/release.yml)
+
 A curriculum vitae template in LaTex.
 
 ![CV](cvpic.png)
