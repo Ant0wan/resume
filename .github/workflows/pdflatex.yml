@@ -1,5 +1,6 @@
 name: 'Build LaTeX CV'
-on: [push]
+on:
+  push: tags-ignore
 
 jobs:
   build:
