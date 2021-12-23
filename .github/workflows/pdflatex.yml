@@ -21,7 +21,7 @@ jobs:
           working_directory: cv/
 
      - name: Upload artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: cv.pdf
-          path: cv/cv.pdf
+       uses: actions/upload-artifact@v2
+       with:
+         name: cv.pdf
+         path: cv/cv.pdf
