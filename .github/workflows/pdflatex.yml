@@ -11,4 +11,5 @@ jobs:
       - name: Compile LaTeX CV
         uses: xu-cheng/latex-action@v2
         with:
-          root_file: cv/cv.tex
+          root_file: cv.tex
+          working_directory: cv/
