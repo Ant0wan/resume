@@ -1,6 +1,6 @@
 # CV
 
-[![Build and Publish LaTeX CV](https://github.com/Ant0wan/CV/actions/workflows/release.yml/badge.svg)](https://github.com/Ant0wan/CV/actions/workflows/release.yml)
+[![Build LaTeX CV](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg)](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml)
 
 A curriculum vitae template in LaTex.
 
@@ -14,7 +14,7 @@ If you are using a Debian's family linux distro.
 apt-get install texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra
 ```
 
-of
+otherwise, if rpm based,
 
 ```shell
 dnf install texlive-scheme-full
