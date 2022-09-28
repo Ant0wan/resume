@@ -4,7 +4,7 @@
 
 A curriculum vitae template in LaTex.
 
-![CV](cvpic.png)
+<img src="cvpic.png" alt="CV" width=40% height=40%> 
 
 ## Prerequisite
 
