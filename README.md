@@ -1,10 +1,20 @@
-# CV
+<br />
+<p align="center">
 
-[![Build LaTeX CV](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg)](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml)
+  <h1 align="center">CV</h1>
+  <p align="center">A curriculum vitae template in LaTex.<i></i>
+  <p align="center">
+  <img src="https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg" alt="Build LaTeX CV">
+  </p>
+</p>
 
-A curriculum vitae template in LaTex.
 
-<img src="cvpic.png" alt="CV" width=40% height=40%> 
+
+<p align="center">
+<img src="cvpic.png" alt="CV" width="40%" height="40%">
+</p>
+
+---
 
 ## Prerequisite
 
@@ -23,20 +33,13 @@ dnf install texlive-scheme-full
 
 ## Build
 
-```shell=
-make cv
-```
-
-OLD:
-
 In order to build a .pdf of your CV, enter the following in your terminal at the project root directory.
 
-```shell
-pdflatex cv.tex
+```shell=
+make
 ```
 
 then open the freshly created `cv.pdf` with your web browser.
-
 
 ```shell
 firefox cv.pdf
