@@ -1,8 +1,15 @@
-# CV
+<br />
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/10403/10403597.png" alt="Resume" width="80" height="80">
 
-[![Build LaTeX CV](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg)](https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml)
+  <h1 align="center">Curriculum Vitae</h1>
+  <p align="center">A curriculum vitae template in LaTex.<i></i>
+  <img src="https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg" alt="Build LaTeX CV">
 
-A curriculum vitae template in LaTex.
+</p>
+
+
+## Overview
 
 <img src="cvpic.png" alt="CV" width=40% height=40%>
 
