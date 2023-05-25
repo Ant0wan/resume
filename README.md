@@ -1,17 +1,20 @@
 <br />
 <p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/10403/10403597.png" alt="Resume" width="80" height="80">
 
-  <h1 align="center">Curriculum Vitae</h1>
+  <h1 align="center">CV</h1>
   <p align="center">A curriculum vitae template in LaTex.<i></i>
+  <p align="center">
   <img src="https://github.com/Ant0wan/CV/actions/workflows/pdflatex.yml/badge.svg" alt="Build LaTeX CV">
-
+  </p>
 </p>
 
 
-## Overview
 
-<img src="cvpic.png" alt="CV" width=40% height=40%>
+<p align="center">
+<img src="cvpic.png" alt="CV" width="40%" height="40%">
+</p>
+
+---
 
 ## Prerequisite
 
