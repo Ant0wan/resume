@@ -1,17 +1,8 @@
-# Author:
-#      Antoine Barthelemy
-# Contact:
-#      <abarthel@student.42.fr>
-# Description:
-#      Compile cv
-#       $ make cv
-
 CC := pdflatex
 SHELL := /bin/bash --posix
+CV_SRCS := cv.tex
 
 all: cv
-
-CV_SRCS = cv.tex
 
 cv: cv.pdf
 

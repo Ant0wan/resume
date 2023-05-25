@@ -4,7 +4,7 @@
 
 A curriculum vitae template in LaTex.
 
-<img src="cvpic.png" alt="CV" width=40% height=40%> 
+<img src="cvpic.png" alt="CV" width=40% height=40%>
 
 ## Prerequisite
 
@@ -23,20 +23,13 @@ dnf install texlive-scheme-full
 
 ## Build
 
-```shell=
-make cv
-```
-
-OLD:
-
 In order to build a .pdf of your CV, enter the following in your terminal at the project root directory.
 
-```shell
-pdflatex cv.tex
+```shell=
+make
 ```
 
 then open the freshly created `cv.pdf` with your web browser.
-
 
 ```shell
 firefox cv.pdf
