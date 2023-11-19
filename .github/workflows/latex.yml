@@ -1,0 +1,47 @@
+name: Latex
+
+on:
+  push:
+    branches:
+      - master
+    tags-ignore:
+      - v*
+    paths-ignore:
+      - README.md
+      - cvpic.png
+      - .gitignore
+      - Makefile
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: xu-cheng/latex-action@v3
+        with:
+          root_file: cv.tex
+      - uses: actions/upload-artifact@v3
+        with:
+          name: cv.pdf
+          path: cv.pdf
+  note:
+    needs: build
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - uses: actions/checkout@v4
+    - run: gh release create ${GITHUB_REF#refs/*/} --generate-notes
+  release:
+    needs: [build, note]
+    if: startsWith(github.ref, 'refs/tags/')
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/download-artifact@v3
+      with:
+        name: cv.pdf
+    - run: gh release upload ${GITHUB_REF#refs/*/} cv.pdf
