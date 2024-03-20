@@ -30,8 +30,8 @@
 
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
-	top=1.00cm, % Top margin
-	bottom=1.00cm, % Bottom margin
+	top=0.80cm, % Top margin
+	bottom=0.80cm, % Bottom margin
 	left=1.3cm, % Left margin
 	right=1.3cm, % Right margin
 	headheight=0.75cm, % Header height
