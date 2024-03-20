@@ -30,10 +30,10 @@
 
 \geometry{
 	paper=a4paper, % Paper size, change to letterpaper for US letter size
-	top=0.80cm, % Top margin
-	bottom=0.80cm, % Bottom margin
-	left=1.3cm, % Left margin
-	right=1.3cm, % Right margin
+	top=0.70cm, % Top margin
+	bottom=0.70cm, % Bottom margin
+	left=1.1cm, % Left margin
+	right=1.1cm, % Right margin
 	headheight=0.75cm, % Header height
 	footskip=1cm, % Space from the bottom margin to the baseline of the footer
 	headsep=0.5cm, % Space from the top margin to the baseline of the header
@@ -130,12 +130,13 @@
 	}\\\\}
 
 \newcommand{\certentry}[2]{% First argument for the leftmost date(s) text, second is for the bold entry heading
+	\vspace{0.3mm}
 	\parbox[t]{0.175\textwidth}{% 17.5% of the text width of the page
 		#1 % Leftmost entry date(s) text
 	}%
 	&\parbox[t]{0.825\textwidth}{% 82.5% of the text width of the page
 		\textbf{#2}% Entry heading text
-	}\\\\}
+	}\\}
 
 % Command to output a separator slash between lists, e.g. '  /  '
 \newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
