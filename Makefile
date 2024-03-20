@@ -17,4 +17,6 @@ clean:
 fclean: clean
 	$(RM) -f $(CV_TARGET)
 
+re: fclean all
+
 .PHONY: all cv clean fclean
