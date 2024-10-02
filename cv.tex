@@ -1,68 +1,36 @@
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[10pt]{developercv} % Default font size, values from 8-12pt are recommended
-
-%----------------------------------------------------------------------------------------
-
+\documentclass[10pt]{developercv}
 \begin{document}
-
-%----------------------------------------------------------------------------------------
-%	TITLE, CONTACT INFORMATION AND PICTURE
-%----------------------------------------------------------------------------------------
-
-\begin{minipage}[t]{0.47\textwidth} % 45% of the page width for name
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\begin{minipage}[t]{0.47\textwidth}
+	\vspace{-\baselineskip}
 	\vspace{12pt}
-
-	% If your name is very short, use just one of the lines below
-	% If your name is very long, reduce the font size or make the minipage wider and reduce the others proportionately
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Antoine}}}}} % First name
-
-	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Barthelemy}}}}} % Last name
-
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Antoine}}}}}
+	\colorbox{black}{{\HUGE\textcolor{white}{\textbf{\MakeUppercase{Barthelemy}}}}}
 	\vspace{6pt}
-
-	{\huge Site Reliability Engineer} % Career or current job title
+	{\huge Site Reliability Engineer}
 \end{minipage}
-\begin{minipage}[t]{0.28\textwidth} % 27.5% of the page width for the first row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
+\begin{minipage}[t]{0.28\textwidth}
+	\vspace{-\baselineskip}
 	\vspace{9pt}
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	\icon{MapMarker}{12}{Paris, Ile-de-France}\\
+	\icon{MapMarker}{12}{\href{https://www.google.com/maps/@48.8534100,2.3488000,12z}{Paris, France}}\\
 	\icon{Github}{12}{\href{https://github.com/Ant0wan}{github.com/Ant0wan}}\\
-	\icon{Phone}{12}{+33 6 95 45 06 11}\\
+	\icon{Phone}{12}{\href{tel:+33695450611}{+33 6 95 45 06 11}}\\
 	\icon{At}{12}{\href{mailto:antoine@linux.com}{antoine@linux.com}}\\
 \end{minipage}
-\begin{minipage}[t]{0.275\textwidth} % 27.5% of the page width for the second row of icons
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-	% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	% Other icons can be found by referring to fontawesome.pdf (supplied with the template) and using the word after \fa in the command for the icon you want
-	%\hspace{0.5cm}
+\begin{minipage}[t]{0.275\textwidth}
+	\vspace{-\baselineskip}
+	\hspace{0.5cm}
 	\roundpic[xshift=0cm,yshift=0cm]{3.7cm}{3.7cm}{profil.jpg}
 \end{minipage}
 
 \vspace{0.5cm}
 
-%----------------------------------------------------------------------------------------
-%	INTRODUCTION
-%----------------------------------------------------------------------------------------
-
 \cvsect{Who Am I?}
 
-\hspace{6pt}\begin{minipage}[t]{0.98\textwidth} % 40% of the page width for the introduction text
-	\vspace{-\baselineskip} % Required for vertically aligning minipages
-
+\hspace{6pt}\begin{minipage}[t]{0.98\textwidth}
+	\vspace{-\baselineskip}
 	{Hello, I am a Site Reliability Engineer with +4 years of experience in multi-cloud deployments, infrastructure automation, container orchestration, and CI/CD. I have expertise in technologies such as AWS, Kubernetes, Terraform, Ansible, Python, Go and Rust.} % Dummy text
-
 \end{minipage}
-\hfill % Whitespace between
-
-%----------------------------------------------------------------------------------------
-%	EXPERIENCE
-%----------------------------------------------------------------------------------------
+\hfill
 
 \cvsect{Experience}
 
@@ -89,7 +57,7 @@
 		{Helped in maintaining infratructure as code. Contributed to the implementation of Kubernetes, Ansible, Terraform, Spinnaker and Github Actions.\\
 		Successfully managed multi-cloud deployments across AWS and Azure.\\
 		Supported developers in delivering new features and on oncall duty.\\
-		\texttt{AWS}\slashsep\texttt{Azure}\slashsep\texttt{Go}\slashsep\texttt{Github Actions}\slashsep\texttt{Python}\slashsep\texttt{Jenkins}\slashsep\texttt{Terraform}\slashsep\texttt{Ansible}\slashsep\texttt{Spinnaker}\slashsep\texttt{Kubernetes}\slashsep\texttt{Vault}\slashsep\texttt{Helm}}
+		\texttt{AWS}\slashsep\texttt{Azure}\slashsep\texttt{Go}\slashsep\texttt{Github Actions}\slashsep\texttt{Python}\slashsep\texttt{Jenkins}\slashsep\texttt{Terraform}\slashsep\texttt{Ansible}\slashsep\texttt{Prometheus}\slashsep\texttt{Grafana}\slashsep\texttt{Kubernetes}\slashsep\texttt{Vault}\slashsep\texttt{Helm}}
 	\entry
 		{02/2022 --\\06/2021\\\footnotesize{Full Time}}
 		{DevOps Engineer - SII}
@@ -104,46 +72,38 @@
 		\texttt{Rust}\slashsep\texttt{Kubernetes}\slashsep\texttt{Docker}\slashsep\texttt{Ansible}\slashsep\texttt{VMWare}\slashsep\texttt{Linux}\slashsep\texttt{Bash}}
 \end{entrylist}
 
-%----------------------------------------------------------------------------------------
-%	CERTIFICATIONS
-%----------------------------------------------------------------------------------------
-
 \cvsect{Certifications}
 
 \begin{entrylist}
 	\certentry
 		{09/2024}
-		{Certified Kubernetes Administrator (CKA)}
+		{\href{https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/e8d771bd-68bf-4ac7-8077-2e885178505a-antoine-barthelemy-21f9eeb4-ead2-4311-ba93-15865ca88f93-certificate.pdf}
+		{Certified Kubernetes Administrator (CKA)}}
 	\certentry
 		{03/2024}
-		{Developing Helm Charts (SC104)}
-%	\certentry
-%		{11/2023}
-%		{Linux Foundation Certified System Administrator (LFCS)}
+		{\href{https://ti-user-certificates.s3.amazonaws.com/e0df7fbf-a057-42af-8a1f-590912be5460/e8d771bd-68bf-4ac7-8077-2e885178505a-antoine-barthelemy-e9f7d66c-6134-4d58-9f70-9967859a7744-certificate.pdf}
+		{Developing Helm Charts (SC104)}}
 	\certentry
 		{05/2023}
-		{HashiCorp Certified: Terraform Associate (003)}
-\end{entrylist}
+		{\href{https://acclaim-production-app.files.credly.com/uploads/printable_pdf/printable_pdf/9c2734e6-a488-492b-998d-8e746f9da1d5/TerraformAssociate00320241002-7-v51spz.pdf?response-content-disposition=attachment&X-Amz-Expires=604800&X-Amz-Date=20241002T172410Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5DGBWDLSBJ5BZX5Z\%2F20241002\%2Fus-east-1\%2Fs3\%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=f195014217593f6f4fc3c7fa59c35ddf1a543795b672c53d4957e3d6d28997cf}
+		{HashiCorp Certified: Terraform Associate (003)}}
 
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
+\end{entrylist}
 
 \cvsect{Education}
 
 \begin{entrylist}
 	\entry
 		{2018 - 2020}
-		{42}
+		{\href{https://42.fr/}{42}}
 		{Paris, France}
-		{\href{https://cv.42.fr/abarthel}{Certificate of Architect in Digital Technologies}}
+		{\href{https://acclaim-production-app.files.credly.com/uploads/printable_pdf/printable_pdf/c858004e-df38-4309-b3c4-e814299c3c6e/42-Certificatepdf20241002-7-ngaeg7.pdf?response-content-disposition=attachment&X-Amz-Expires=604800&X-Amz-Date=20241002T173738Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIA5DGBWDLSBJ5BZX5Z\%2F20241002\%2Fus-east-1\%2Fs3\%2Faws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=a55bc0206580e9d1da963475100f2dcea13c7d6e9b855c452bca2ac1ecec216c}
+		{Certificate of Architect in Digital Technologies}}
 	\entry
 		{2014 - 2017}
-		{ESSEC}
+		{\href{https://www.essec.edu}{ESSEC}}
 		{Cergy, France}
 		{Bachelor of Business Administration}
 \end{entrylist}
-
-%----------------------------------------------------------------------------------------
 
 \end{document}
