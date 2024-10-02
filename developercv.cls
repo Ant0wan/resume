@@ -98,6 +98,7 @@
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
 	\vspace{\baselineskip} % Whitespace before the section title
+	\hspace{-6pt}
 	\colorbox{white}{\textcolor{black}{\MakeUppercase{\textbf{#1}}}}\\% Section title
 }
 
