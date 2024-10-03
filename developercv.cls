@@ -130,6 +130,7 @@
 	}\\\\}
 
 \newcommand{\certentry}[2]{% First argument for the leftmost date(s) text, second is for the bold entry heading
+	\vspace{-5pt}
 	\parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
 		#1 % Leftmost entry date(s) text
 	}%
