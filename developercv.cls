@@ -81,6 +81,9 @@
 
 \usepackage{tikz} % Required for creating the plots
 \usetikzlibrary{shapes, backgrounds}
+\usepackage[T1]{fontenc}
+\input{glyphtounicode}
+\pdfgentounicode=1
 \tikzset{x=1cm, y=1cm} % Default tikz units
 
 % Command to vertically centre adjacent content
