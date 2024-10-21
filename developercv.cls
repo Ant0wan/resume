@@ -97,19 +97,18 @@
 	\end{longtable}
 }
 
-\newcommand{\entry}[4]{% First argument for the leftmost date(s) text, second is for the bold entry heading, third is for the bold right-aligned entry qualifier and the fourth is for the entry description
-	\parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
-		#1 % Leftmost entry date(s) text
-	}%
-	&\parbox[t]{0.85\textwidth}{% 82.5% of the text width of the page
-		\textbf{#2}% Entry heading text
-		\hfill% Horizontal whitespace
-		{\footnotesize \textbf{\textcolor{black}{#3}}}\\% Right-aligned entry qualifier text
-		#4 % Entry description text
-	}\\\\}
-
+\newcommand{\entry}[6]{
+    \parbox[t]{1.00\textwidth}{
+        \textbf{#3 \ - \ #2}
+	\vspace{1pt}
+	\hfill
+	\textit{\small{ #1 \ \ #4}}\\
+        #5\\
+	\small{\textit{#6}}
+    }\\\\
+}
 \newcommand{\certentry}[2]{% First argument for the leftmost date(s) text, second is for the bold entry heading
-	\vspace{-5pt}
+	\vspace{-8pt}
 	\parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
 		#1 % Leftmost entry date(s) text
 	}%
