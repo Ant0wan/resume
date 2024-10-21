@@ -73,11 +73,11 @@
 %	CUSTOM SECTIONS
 %----------------------------------------------------------------------------------------
 
+\definecolor{barcolor}{RGB}{160,160,160}
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
-    \vspace{4pt}
-    \hspace{-0.5pt}{\textcolor{black!90}{\MakeUppercase{\textbf{#1}}}}\vspace{-8pt} \\ % 80% opacity for the white background
-    \noindent\rule{\textwidth}{0.4pt}
+    \vspace{10pt}
+    {\textcolor{black}{\MakeUppercase{\textbf{#1}}}}\vspace{-2pt} \\ % 80% opacity for the white background
 }
 
 %----------------------------------------------------------------------------------------
@@ -99,7 +99,7 @@
 
 \newcommand{\entry}[6]{
     \parbox[t]{1.00\textwidth}{
-        \textbf{#3 \ - \ #2}
+	\textcolor{black!90}{\textbf{#3 \ - \ #2}}
 	\vspace{1pt}
 	\hfill
 	\textit{\small{ #1 \ \ #4}}\\
