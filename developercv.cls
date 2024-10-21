@@ -102,7 +102,7 @@
 	\textcolor{black!90}{\textbf{#3 \ - \ #2}}
 	\vspace{1pt}
 	\hfill
-	\textit{\small{ #1 \ \ #4}}\\
+	\small{#1 \ \ #4}\\
         #5\\
 	\small{\textit{#6}}
     }\\\\
@@ -110,10 +110,10 @@
 
 \newcommand{\certentry}[2]{% First argument for the leftmost date(s) text, second is for the bold entry heading
 	\vspace{-8pt}
-	\parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
-		#1 % Leftmost entry date(s) text
-	}%
-	&\parbox[t]{0.85\textwidth}{% 82.5% of the text width of the page
-		\textbf{#2}% Entry heading text
-	}\\\\}
+	\parbox[t]{1.00\textwidth}{
+		\textcolor{black!90}{\textbf{#2}}
+		\hfill
+		\small{#1}
+	}
+	\\\\}
 
