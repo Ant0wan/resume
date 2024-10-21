@@ -46,34 +46,10 @@
 
 \usepackage[utf8]{inputenc} % Required for inputting international characters
 \usepackage[T1]{fontenc} % Output font encoding for international characters
-
 \usepackage[default]{raleway}
-%\usepackage[defaultsans]{droidsans}
-%\usepackage{cmbright}
-%\usepackage{fetamont}
-%\usepackage[default]{gillius}
-%\usepackage{roboto}
-
 \renewcommand*\familydefault{\sfdefault} % Force the sans-serif version of any font used
 
 %------------------------------------------------
-
-\usepackage{fontawesome} % Required for FontAwesome icons
-
-% Command to output an icon in a black square box with text to the right
-\newcommand{\icon}[3]{% The first parameter is the FontAwesome icon name, the second is the box size and the third is the text
-	\vcenteredhbox{\colorbox{white}{\makebox(#2, #2){\textcolor{black}{\large\csname fa#1\endcsname}}}}% Icon and box
-	\hspace{0.2cm}% Whitespace
-	\vcenteredhbox{\textcolor{black}{#3}}% Text
-}
-
-\newcommand{\roundpic}[4][]{
-  \tikz\node [circle, minimum width = #2,
-    path picture = {
-      \node [#1] at (path picture bounding box.center) {
-        \includegraphics[width=#3]{#4}};
-	}] {};
-}
 
 %----------------------------------------------------------------------------------------
 %	GRAPHICS DEFINITIONS
@@ -99,9 +75,9 @@
 
 % Command to output section title headings
 \newcommand{\cvsect}[1]{% The only parameter is the section text
-	\vspace{\baselineskip} % Whitespace before the section title
-	\hspace{-6pt}
-	\colorbox{white}{\textcolor{black}{\MakeUppercase{\textbf{#1}}}}\\% Section title
+    \vspace{4pt}
+    \hspace{-0.5pt}{\textcolor{black!90}{\MakeUppercase{\textbf{#1}}}}\vspace{-8pt} \\ % 80% opacity for the white background
+    \noindent\rule{\textwidth}{0.4pt}
 }
 
 %----------------------------------------------------------------------------------------
