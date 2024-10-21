@@ -1,13 +1,13 @@
 CC := pdflatex
 SHELL := /bin/bash --posix
-CV_SRCS := cv.tex
-CV_TARGET := cv.pdf
+CV_SRCS := resume.tex
+CV_TARGET := resume.pdf
 CV_CLASS := developercv.cls
 CV_IMAGE := profile.jpg
 
-all: cv
+all: resume
 
-cv: $(CV_TARGET)
+resume: $(CV_TARGET)
 
 $(CV_TARGET): $(CV_SRCS) $(CV_CLASS) $(CV_IMAGE)
 	$(CC) $<
@@ -19,4 +19,4 @@ clean:
 fclean: clean
 	$(RM) -f $(CV_TARGET)
 
-.PHONY: all cv clean fclean
+.PHONY: all resume clean fclean
