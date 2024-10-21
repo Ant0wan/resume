@@ -107,6 +107,7 @@
 	\small{\textit{#6}}
     }\\\\
 }
+
 \newcommand{\certentry}[2]{% First argument for the leftmost date(s) text, second is for the bold entry heading
 	\vspace{-8pt}
 	\parbox[t]{0.15\textwidth}{% 17.5% of the text width of the page
@@ -116,5 +117,3 @@
 		\textbf{#2}% Entry heading text
 	}\\\\}
 
-% Command to output a separator slash between lists, e.g. '  /  '
-\newcommand{\slashsep}{\hspace{3mm}/\hspace{3mm}}
