@@ -99,7 +99,7 @@
 
 \newcommand{\entry}[6]{
     \parbox[t]{1.00\textwidth}{
-	\textcolor{black!90}{\textbf{#3 \ - \ #2}}
+	\textcolor{black!90}{\textbf{#3}{ - }\textbf{#2}}
 	\vspace{1pt}
 	\hfill
 	\small{#1 \ \ #4}\\
@@ -116,4 +116,16 @@
 		\small{#1}
 	}
 	\\\\}
+
+\newcommand{\eduentry}[4]{
+	\vspace{-8pt}
+    	\parbox[t]{0.08\textwidth}{
+		\textcolor{black!90}{\textbf{#2}}
+	}
+	&\parbox[t]{0.92\textwidth}{
+		#4
+		\hfill
+		\small{#1 \ \ #3}
+    	}\\\\
+}
 
