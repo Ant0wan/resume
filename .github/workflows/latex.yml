@@ -19,11 +19,11 @@ jobs:
       - uses: actions/checkout@v4
       - uses: xu-cheng/latex-action@v3
         with:
-          root_file: cv.tex
+          root_file: resume.tex
       - uses: actions/upload-artifact@v3
         with:
-          name: cv.pdf
-          path: cv.pdf
+          name: resume.pdf
+          path: resume.pdf
   note:
     needs: build
     if: startsWith(github.ref, 'refs/tags/')
@@ -43,5 +43,5 @@ jobs:
     - uses: actions/checkout@v4
     - uses: actions/download-artifact@v3
       with:
-        name: cv.pdf
-    - run: gh release upload ${GITHUB_REF#refs/*/} cv.pdf
+        name: resume.pdf
+    - run: gh release upload ${GITHUB_REF#refs/*/} resume.pdf
